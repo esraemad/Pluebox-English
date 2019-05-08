@@ -1,0 +1,547 @@
+@font-face {
+  font-family: 'indielabs Frutiger regular';
+  src:url('../fonts/indielabs Frutiger regular.ttf') format('truetype');   
+}
+
+body
+{
+    padding: 0;
+    margin: 0;
+    font-family:"indielabs Frutiger regular";    
+}
+
+
+/*******start nav *******/
+
+.navbar
+{
+    background-color:#DB423D;
+    padding: 20px;
+    margin: 0;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+    border: #DB423D;
+}
+.navbar-default {
+    border: 1px solid transparent;
+}
+.navbar-brand>img
+{
+    width: 50%;
+    margin: auto;
+    margin-top: -30px;
+}
+
+.navbar-right
+{
+    margin-right: 20%;
+}
+.navbar-default .navbar-nav>li>a
+{
+    color: #fff;
+    font-size: 16px;
+    border-bottom: 2px solid transparent;
+    margin-left: 5px;
+    transition:  all ease-in-out 0.3s;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+    border-bottom: 2px solid #fff;
+    margin-left: 5px;
+    color: #fff;
+}
+
+/*******end nav *******/
+
+/*******start hedr *******/
+.hedr
+{
+    background-color: #D63E3B;
+    margin: 0;
+    padding: 0;
+}
+
+.praghedr
+{
+    margin-top: 200px;
+   text-align: left;
+    margin-left: 50px;
+}
+.praghedr h1
+{
+    font-size: 73px;
+    font-weight: bold;
+    color: #fff;
+    letter-spacing: 1px;
+    padding: 0;
+    margin: 0;
+}
+.praghedr p
+{
+    color: #eee;
+    font-size: 22px;
+    margin-top: 30px;
+}
+.btndhedr
+{
+   background-color: #7CC0B2;
+    color: #eee;
+    font-size: 18px;
+    border-radius: 20px;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    box-shadow: 0px 3px 10px #666;
+    margin-top: 30px;
+}
+.btndhedr:hover
+{
+    color: #fff;
+}
+
+/*******end hedr *******/
+
+/******* start about *******/
+.about
+{
+    background-image: url(../img/aboutbg.svg);
+    background-size: cover;
+     background-repeat: no-repeat;
+    background-position: center;
+    margin-top: 200px;
+}
+
+.aboutpic
+{
+    background-image: url(../img/233.png);
+    height: 500px;
+    background-size: contain;
+    background-position: top;
+    background-repeat: no-repeat;
+    width: 88%;
+    margin: auto;
+    margin-top: -100px;
+}
+
+.aboutpic
+{
+    position: relative;
+}
+.picabout
+{
+    position: absolute;
+    bottom:-10px;
+    left: 50px;
+}
+
+.aboutprag
+{
+    width: 78%;
+    margin: auto;
+}
+.aboutprag h2
+{
+    font-size: 55px;
+    color: #555;
+    font-weight: bold;
+    margin-top: -50px;
+    
+}
+.aboutprag p
+{
+    font-size: 16px;
+    line-height: 2;
+    margin-top: 30px;
+    color: #666;
+    letter-spacing: 1px;
+}
+
+/******* end about *******/
+
+/******* start provide *******/
+.provide
+{
+    margin-top: 100px;
+}
+.bkprovide
+{
+    background-image: url(../img/servicesBg.png);
+    background-size: cover;
+    height: 200px;
+}
+
+.slid
+{
+    width: 90%;
+    margin: auto;
+    margin-right: 10px;
+    margin-top: -150px;
+    
+}
+
+.imgprovide
+{
+    width: 30%;
+    margin: auto;
+    margin-top: 30px;
+}
+.imgtv
+{
+    width: 40%;
+    margin: auto;
+    margin-top: 30px;
+}
+.imgmob
+{
+    width: 20%;
+    margin: auto;
+    margin-top: 30px;
+}
+.boxsider
+{
+    background-color: #fff;
+    border: 1px solid #eee;
+    text-align: center;
+    width: 40%;
+    margin: auto;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: 20px;
+    box-shadow: 0 4px 2px -2px green;
+    padding: 15px;
+
+}
+
+.boxsider h4
+{
+    font-weight: bold;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.pragprovide 
+{
+    width: 70%;
+    margin: auto;
+}
+.pragprovide div
+{
+    color: #CC5C66;
+    font-size: 18px;
+}
+
+.pragprovide h3
+{
+    font-size: 35px;
+    font-weight: bold;
+    line-height: 1.2;
+}
+
+.pragprovide p
+{
+    color: #666;
+    line-height: 1.8;
+}
+
+/******* end provide *******/
+
+/******* start works *******/
+.pic
+{
+    width: 50%;
+}
+
+.works
+{
+    margin-top: 100px;
+    background-color: #eee;
+    height: 800px;
+    margin-bottom: 150px;
+}
+.works h2
+{
+    font-weight: bold;
+    padding-top: 100px;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+.swiper-container 
+{
+      width: 100%;
+      height: 100%;
+    background-color: #eee;
+}
+.swiper-slide 
+{
+      text-align: center;
+      font-size: 18px;
+      background: #eee;
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+}
+
+
+.swiper-pagination-bullets
+{
+    display: none;
+}
+
+.swiper-button-nex
+{
+    display: none;
+}
+
+.swiper-button-next, .swiper-button-prev
+{
+    width: 55px;
+}
+
+
+.imgback
+{
+    background-image: url(../img/p7.png);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+.imgback2
+{
+    background-image: url(../img/p3.png);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+
+.imgback3
+{
+    background-image: url(../img/p5.png);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+.imgback4
+{
+    background-image: url(../img/p2.jpg);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+.imgback5
+{
+    background-image: url(../img/p6.png);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+
+.imgback6
+{
+    background-image: url(../img/p8.png);
+    height: 60%;
+    width: 100%;
+    background-size: cover;
+    background-position: center
+}
+
+/******* end works *******/
+
+/******* start follows *******/
+
+.follow
+{
+    background-image: url(../img/followbg.png);
+    background-size: cover;
+    padding: 100px;
+}
+.follow h2
+{
+    font-weight: bold;
+     color: #fff;
+    letter-spacing: 1px;
+    font-size: 35px;
+}
+
+.follow ul
+{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+}
+.follow ul li
+{
+    margin: 0;
+    padding: 0;
+    display: inline-block;
+    
+}
+
+.sochialicon
+{
+    width: 75%;
+    margin: auto;
+    padding: 0;
+    padding-top:100px;
+    margin-right: -10px;
+    
+
+}
+
+/******* end follows *******/
+
+
+/******* start contact *******/
+.contact
+{
+    margin-top: 50px;
+    color: #555;
+    letter-spacing: 1px;
+}
+.contact h3
+{
+    font-weight: bold;
+    margin-bottom: 30px;
+    color: #333;
+}
+.contact ul li
+{
+    padding: 12px;
+}
+.location
+{
+    display: inline-block;
+}
+.imglocation
+{
+    display: inline-block;
+    margin-right: 10px;
+    width: 8%;
+}
+.imglocationspichal
+{
+    display: inline-block;
+    width: 12%;
+    margin-right: 10px;
+}
+/******* end contact *******/
+
+/******* start footer *******/
+
+.footer
+{
+    margin-top: 50px;
+    text-align: right;
+    color: #888;
+}
+/******* end footer *******/
+
+@media (max-width: 1200px) 
+{
+    .praghedr h1
+    {
+        font-size: 45px;
+    }
+    .navbar
+    {
+        padding: 0;
+    }
+    .navbar-right
+    {
+        margin-right: 0;
+    }
+    .navbar-brand>img
+    {
+        margin-top: 0;
+    }
+    .aboutprag
+    {
+        width: 100%;
+    }
+    .picabout {
+    position: absolute;
+    bottom: 118px;
+    left: 15px;
+}
+}
+
+@media (max-width: 767px)
+{
+    .navbar-header
+    {
+        height: 100px;
+    }
+    .praghedr 
+    {
+        margin-top: 155px;
+    }
+    .aboutprag
+    {
+        width: 80%;
+        margin: auto;
+        text-align: center;
+        margin-top: 50px;
+    }
+    .pragprovide
+    {
+        text-align: center;
+        
+    }
+    .imgback
+    {
+        height:40%;
+    }
+    .imgback2
+    {
+        height:40%;
+    }
+    .imgback3
+    {
+        height: 40%;
+    }
+    .imgback4
+    {
+        height: 40%;
+    }
+    .imgback5
+    {
+        height:40%;
+    }
+    .imgback6
+    {
+        height:40%;
+    }
+    .contact
+    {
+        
+        text-align: center;
+    }
+    .footer h4
+    {
+        text-align: center;
+    }
+    .sochialicon
+    {
+        margin-top: 0;
+        margin-right: 0;
+    }
+    
+}
